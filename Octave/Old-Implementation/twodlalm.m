@@ -1,5 +1,5 @@
-total = 100000;
-myu = 0.99;
+total = 10000;
+myu = 0.9;
 
 x_bar = zeros(total,1);
 y_bar = zeros(total,1);
@@ -7,8 +7,8 @@ y_bar = zeros(total,1);
 x = zeros(total,1);
 y = zeros(total,1);
 
-x(1) = 0.99;
-y(1) = 0.99;
+x(1) = 0.1;
+y(1) = 0.1;
 
 
 
@@ -20,10 +20,7 @@ for i = 1:total - 1
 endfor
 
 plot(x,y,'.','MarkerSize',4);
-x(total - 2)
-x(total - 3)
-x(total - 4)
-x(total - 5)
+
 %{
 
 %}
